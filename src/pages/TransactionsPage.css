@@ -1,0 +1,62 @@
+.transaction-history {
+    font-family: "Arial", sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .transaction-page {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  
+  .transaction-history h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .transaction-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .transaction-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transaction-item .details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .transaction-item .details .title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .transaction-item .details .description {
+    font-size: 14px;
+    color: #6c6c6c;
+  }
+  
+  .transaction-item .time {
+    font-size: 14px;
+    color: #9c9c9c;
+  }
+
+  .transaction-item .coupon {
+    font-size: 14px;
+    color: #4caf50;
+    margin-top: 5px;
+  }
+  
+  
